@@ -21,15 +21,19 @@ class About extends Component {
           <h1 style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
-          <div className="row center mx-auto mb-5">
+          <div className="row center mx-auto mb-3">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
-                  <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
+                <img
+                      style={{
+                        height: "300px", // Adjust height
+                        width: "400px",  // Adjust width to make it wider
+                        objectFit: "cover" // Ensures the image scales well and doesn't distort
+                      }}
+                      src={profilepic}
+                      alt="Avatar placeholder"
+                    />
                   <Icon
                     icon={angularIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}

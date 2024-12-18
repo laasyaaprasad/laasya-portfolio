@@ -1,118 +1,114 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Laasya Anantha Prasad. I am a graduate student at Northeastern University, pursuing a Master's in Data Science. I am passionate about leveraging data science techniques to solve real-world problems and have experience in NLP, machine learning, and generative AI.",
+    "section_name": {
+      "about": "About Me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "LLM Research Assistant",
+      "startDate": "2024",
+      "description": "Engineered an AI-driven feedback bot leveraging a custom fine-tuned GPT model to automate grading of business analytics assignments, achieving a 20% increase in grading efficiency.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-tensorflow-plain",
+          "name": "TensorFlow"
+        },
+        {
+          "class": "devicon-aws-plain",
+          "name": "AWS"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
+    {
+      "title": "FinAdvisor - Financial Advisory Tool",
+      "startDate": "2023",
+      "description": "Developed a financial assistant bot with fine-tuned LLaMA and Mistral LLMs, integrated Vector DB for faster text generation, and deployed a Gradio-based UI.",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "ValidiFi",
+      "title": "Data Science and Analytics Summer Intern",
+      "years": "June 2024 - September 2024",
+      "mainTech": [
+        "Python",
+        "Expectation Maximization Algorithm"
+      ],
+      "technologies": [
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Matplotlib"
+      ]
+    },
+    {
+      "company": "Cisco Systems",
+      "title": "Data Science Co-Op",
+      "years": "January 2023 - June 2023",
+      "mainTech": [
+        "Spark",
+        "Tableau"
+      ],
+      "technologies": [
+        "SQL",
+        "NoSQL",
+        "Python",
+        "Power BI"
+      ]
+    },
+    {
+      "company": "KrtrimaIQ Cognitive Solutions",
+      "title": "Data Science Intern",
+      "years": "October 2022 - December 2022",
+      "mainTech": [
+        "NLP",
+        "MongoDB"
+      ],
+      "technologies": [
+        "Python",
+        "Beautiful Soup",
+        "NLTK"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "R", "C++", "Java"],
+    "frameworks": ["TensorFlow", "React", "Docker", "Spark"],
+    "databases": ["MySQL", "MongoDB", "Snowflake", "OracleDB"],
+    "tools": ["Power BI", "Tableau", "AWS", "Google Cloud"]
   }
+}

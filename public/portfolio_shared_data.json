@@ -1,11 +1,11 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Laasya Anantha Prasad",
+      "titles": [ "Data Scientist","Data Analyst"],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/laasyaaprasad",
           "class": "fab fa-github"
         },
         {
