@@ -25,11 +25,11 @@
           "name": "Python"
         },
         {
-          "class": "devicon-tensorflow-plain",
+          "class": "devicon-tensorflow-original",
           "name": "TensorFlow"
         },
         {
-          "class": "devicon-aws-plain",
+          "class": "devicon-amazonwebservices-plain",
           "name": "AWS"
         }
       ]

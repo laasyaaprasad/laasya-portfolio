@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "name": "Laasya Anantha Prasad",
-    "titles": ["Data Scientist", "Data Analyst", "Machine Learning Engineer"],
+    "titles": ["Data Scientist", "Data Analyst"],
     "social": [
       {
         "name": "github",
@@ -12,11 +12,6 @@
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/laasyaaprasad",
         "class": "fab fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com",
-        "class": "fab fa-instagram"
       }
     ],
     "image": "myProfile.jpg"
@@ -30,13 +25,13 @@
       },
       {
         "name": "R",
-        "class": "devicon-r-original",
-        "level": "85"
+        "class": "devicon-r-plain",
+        "level": "90"
       },
       {
-        "name": "SQL",
+        "name": "MySQL",
         "class": "devicon-mysql-plain",
-        "level": "90"
+        "level": "85"
       },
       {
         "name": "TensorFlow",
@@ -44,39 +39,19 @@
         "level": "80"
       },
       {
-        "name": "Tableau",
-        "class": "devicon-tableau-original",
-        "level": "85"
+        "name": "Docker",
+        "class": "devicon-docker-plain",
+        "level": "75"
       },
       {
         "name": "Spark",
         "class": "devicon-apache-plain",
-        "level": "75"
-      },
-      {
-        "name": "AWS",
-        "class": "devicon-amazonwebservices-original",
-        "level": "80"
-      },
-      {
-        "name": "React",
-        "class": "devicon-react-original",
         "level": "70"
       },
       {
-        "name": "Docker",
-        "class": "devicon-docker-plain",
-        "level": "65"
-      },
-      {
-        "name": "HTML 5",
-        "class": "devicon-html5-plain",
-        "level": "95"
-      },
-      {
-        "name": "CSS 3",
-        "class": "devicon-css3-plain",
-        "level": "90"
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain",
+        "level": "75"
       }
     ]
   }
