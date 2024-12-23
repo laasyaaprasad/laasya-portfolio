@@ -7,6 +7,15 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Achievements from "./components/Achievements"; // Import Achievements component
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+// In componentDidMount:
+AOS.init({
+  duration: 1000,
+  once: true
+});
 
 class App extends Component {
   constructor(props) {
@@ -70,6 +79,10 @@ class App extends Component {
         />
         <Experience
           resumeExperience={this.state.resumeData.experience}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Achievements
+          resumeAchievements={this.state.resumeData.achievements}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
