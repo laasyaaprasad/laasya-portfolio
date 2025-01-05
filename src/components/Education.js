@@ -169,7 +169,7 @@ class Education extends Component {
             <div className="col-md-12">
               <h1 className="section-title" style={{ color: "black" }}>
                 <span className="text-black" style={{ textAlign: "center" }}>
-                  {sectionName}
+                  Education
                 </span>
               </h1>
             </div>
