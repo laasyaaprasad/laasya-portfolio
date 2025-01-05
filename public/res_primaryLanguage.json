@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "Hi",
-    "description": "👋 I'm Laasya Anantha Prasad. I am a graduate student at Northeastern University, pursuing a Master's in Data Science. I am passionate about leveraging data science techniques to solve real-world problems and have experience in NLP, machine learning, and generative AI.",
+    "description_header": "Hi 👋 ",
+    "description": "I’m Laasya Anantha Prasad, a grad student at Northeastern University pursuing my Master’s in Data Science 📊🤖. I’m passionate about using data to tackle real-world problems and have experience working with NLP, machine learning, and generative AI 🧠✨.\n\nWhen I’m not immersed in code or exploring new tech, you’ll probably find me playing chess ♟️—I love the strategy and focus it takes—or participating in datathons 🏆, where I get to work on exciting challenges with other data enthusiasts.\n\nI’m also into photography 📸 and enjoy capturing little moments.\n\nHiking 🥾 is my way of unwinding; there’s nothing quite like a good trail to clear your mind.\n\nWhether I’m solving problems with data, playing chess, or exploring the outdoors, I’m always curious and looking for new ways to grow and learn 🌟.",
     "section_name": {
       "about": "About Me",
       "projects": "Projects",
@@ -10,11 +10,52 @@
       "achievements": "Achievements"
     }
   },
+  "education": [
+    {
+      "institution": "Northeastern University",
+      "degree": "Master of Science - MS, Data Science",
+      "location": "Boston, MA",
+      "years": "Sep 2023 - May 2025",
+      "gpa": "3.857",
+      "Research Assistant": [
+          "Worked as a research assistant under Professor Kwong Chan as part of <a href='https://damore-mckim.northeastern.edu/dash' target='_blank'>DMSB AI Strategic Hub</a> to build a feedback bot to automate grading on canvas"
+        ],
+      "Teaching Assistant": [
+        "Worked as a teaching assistant for <a href='https://course.ccs.neu.edu/cs1800/course_staff.html' target='_blank'>CS1800-Discrete Structures in Mathematics</a> under Professor Matt Higger",
+        "Worked as a teaching assistant for <a href='https://catalog.northeastern.edu/course-descriptions/mism/' target='_blank'>MSIM6212 - Data Mining and Machine Learning for Business</a> under Prof. Xiupeng Wang",
+        "Worked as a teaching assistant for <a href='https://www.khoury.northeastern.edu/home/vkp/3800-sp13/Course_Overview.html' target='_blank'>CS3800 - Theory of Computation</a> under Prof. Walter Schnyder"
+      ],
+      
+      "coursework": [
+        "DS5110 Introduction to Data Management and Processing, CS5800 Algorithms, DS5220 Supervised Machine Learning, DS5230 Unsupervised Machine Learning, CS6120 Natural Language Processing, DS5983 Large Language Models, DS5500 Data Science Capstone"
+      ],
+      "extra": [
+        "Member of the <a href='https://www.khoury.northeastern.edu/clubs_and_orgs/the-data-science-hub-boston/' target='_blank'>Data Science Hub</a> at Northeastern University"
+      ]      
+    },
+    {
+      "institution": "B. M. S. College of Engineering",
+      "degree": "Bachelor of Engineering - BE, Information Science",
+      "location": "Bengaluru, India",
+      "years": "2019 - 2023",
+      "gpa": "3.8",
+      "Research Assitant": [],
+      "Teaching Assistant": [],
+      "coursework": [
+        "19MA3BSSDM Statistics and Discrete Mathematics, 19MA3BLIA Linear Algebra, 19IS3PCOOP Object Oriented Programming, 20IS5PEADS Advanced Data Structures and Algorithms, 20IS5PDBMS Database Management Systems, 20IS5PEAPP Advanced Python Programming, 20IS7OEMLG Machine Learning, 20IS6PEDLG Deep Learning"
+      ],
+      "extra": [
+        "Member of the Rotaract club and part of <a href='https://bmscerotaract.wordpress.com/2019/10/09/iteach-phase-11-opening-session/' target='_blank'>iTeach initiative</a>  at BMSCE",
+        "Member of <a href =https://www.bmsceieee.com/home target='_blank'>IEEE Student Branch</a> at BMSCE",
+        "Member of the university chess team"
+      ] 
+    }
+  ],
   "projects": [
     {
       "title": "FinAdvisor - Financial Advisory Tool",
       "startDate": "2024",
-      "description": "Developed a personal finance advisory bot with fine-tuned LLaMA and Mistral LLMs for faster text generation, and deployed a Gradio-based UI.",
+      "description": "The FinAdvisor project leverages AI and LLMs with Parameter-Efficient Fine-Tuning (PEFT) using QLoRA to deliver personalized financial advice efficiently. Real-time financial data from Alpaca News API and Hugging Face datasets is preprocessed and stored in Qdrant for retrieval. LoRA fine-tunes the model for financial contexts, ensuring accuracy and scalability. Deployed via a RESTful API with a Gradio interface, the tool provides real-time insights into budgeting, investments, and credit management.",
       "images": [
         "images/FinAdvisor.png",
         "images/FinAdvisor_FeaturePipeline.jpg",
@@ -62,12 +103,14 @@
     {
       "title": "LyricLab - Ed Sheeran Lyrics Generator",
       "startDate": "2024",
-      "description": "Engineered an AI-driven feedback bot leveraging a custom fine-tuned GPT model to automate grading of business analytics assignments, achieving a 20% increase in grading efficiency.",
+      "description": "The LyricLab project explores the fascinating task of generating song lyrics using Natural Language Processing (NLP) and machine learning. By working with a dataset of 111 unique Ed Sheeran songs, the team analyzes a vocabulary of 4,632 unique words and over 62,000 tokens to develop and compare various models. The project leverages Python, TensorFlow, and PyTorch to implement techniques like Naive Bayes N-Gram models, RNNs with LSTM architecture, and GPT-2 Transformers. Key efforts include creating trigram probability graphs, calculating perplexity, and training models to predict and generate new lyrics. The results are evaluated using metrics like ROUGE scores and perplexity, shedding light on the strengths and limitations of each approach, from the simplicity of N-Grams to the advanced capabilities of GPT-2. This project not only pushes the boundaries of text generation but also highlights challenges like overfitting and model biases in creative AI applications​",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/transformer_architecture.png",
+        "images/Rnn_lstm.png",
+        "images/gpt2flow.png",
+        "images/gpt2performance.png"
       ],
-      "url": "",
+      "url": "https://github.com/laasyaaprasad/LyricLab",
       "technologies": [
         {
           "class": "devicon-python-plain",
@@ -84,14 +127,17 @@
       ]
     },
     {
-      "title": "LLM Research Assistant",
-      "startDate": "2024",
-      "description": "Engineered an AI-driven feedback bot leveraging a custom fine-tuned GPT model to automate grading of business analytics assignments, achieving a 20% increase in grading efficiency.",
+      "title": "ShopServe E-Commerce platform",
+      "startDate": "2023",
+      "description": "ShopServe is a country-specific e-commerce platform that connects customers, sellers, and shippers through tailored user accounts, enabling product management, secure transactions, and integrated delivery services. It employs Flask for web development, MySQL for database management, and HTML5, CSS3, and JavaScript for a responsive UI, with Jinja for dynamic content rendering. Data generation uses Python's faker library to populate the database, while stored procedures and functions facilitate efficient CRUD operations and business logic automation.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/shopserve_ERD.png",
+        "images/shopserve_ui1.png",
+        "images/shopserve_ui2.png",
+        "images/shopserveanalytics1.png",
+        "images/shopserveanalytics2.png"
       ],
-      "url": "",
+      "url": "https://github.com/laasyaaprasad/ShopServe",
       "technologies": [
         {
           "class": "devicon-python-plain",
@@ -110,7 +156,7 @@
     {
       "title": "Article Recommendation System",
       "startDate": "2024",
-      "description": "Developed a personalized article recommendation system to ensure readers stay interested and engaged with the content they consume",
+      "description": "The Article Recommendation System is designed to provide personalized article suggestions, ensuring readers stay engaged with content that matches their interests. It uses a combination of techniques like content-based filtering (analyzing article keywords with TF-IDF), collaborative filtering (leveraging user behavior and preferences), and a hybrid model that blends both approaches for better accuracy. The project also incorporates advanced tools like K-Means clustering, SVD, and kernel PCA for improving recommendations and visualizing patterns. Built with Python, it focuses on delivering meaningful and tailored recommendations that adapt to users' evolving preference",
       "images": [
         "images/RecommendationSystemTypes.png",
         "images/RecommendationSystemEvaluation.png",
@@ -133,11 +179,11 @@
       ]
     },
     {
-      "title": "Early Diabetes Prediction",
-      "startDate": "2024",
-      "description": "Developed a personalized article recommendation system to ensure readers stay interested and engaged with the content they consume",
+      "title": " Diabetes Prediction using Machine Learning",
+      "startDate": "2022",
+      "description": "The Early Diabetes Prediction project focuses on identifying the best machine learning models to predict diabetes accurately using the Pima Indian Diabetes Dataset. Preprocessing steps like missing value removal and feature subset selection were applied to enhance data quality. Models like Support Vector Machines, Logistic Regression, Random Forest, and Decision Trees were trained and evaluated. Additionally, a Soft Voting Classifier was implemented to combine model predictions for improved accuracy. The project emphasizes feature importance, performance comparisons, and efficient classification for early diabetes detection.",
       "images": [
-        "images/Diabetes.jpeg",
+        "images/diabetes_decisiontree.png",
         "images/DiabetesPredictionWorkflow.png",
         "images/DiabetesPredictionAccuracy.png"
       ],
@@ -252,15 +298,15 @@
   "achievements": [
     {
       "title": "Harvard Agriculture Datathon 2024",
-      "description": "Won first place in the 3 day datathon competing againt 30 teams from multiple universities across the U.S.",
+      "description": "Won first place in the 3 day datathon competing againt 30+ teams from multiple universities across the U.S.",
       "image": "/images/portfolio/achievements/datathon.jpg",
-      "tags": ["Data Science", "Competition", "First Place"]
+      "tags": ["Data Science", "60 hour datathon", "First Place"]
     },
     {
       "title": "Research Publication",
-      "description": "Published a research paper on NLP in the International Journal of Data Science.",
+      "description": "Published a research paper oon object detection in IEEE Xplore.",
       "image": "/images/portfolio/achievements/research.png",
-      "tags": ["Research", "NLP", "Publication"]
+      "tags": ["Research", "RCNN", "SSD", "YOLO", "Publication"]
     }
   ]
 }

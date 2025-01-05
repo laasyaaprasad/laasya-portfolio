@@ -101,7 +101,7 @@ $content-background-color: #EEEEEE;
   }
 
   &__startUp {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     height: 100%;
     width: 100%;
 
@@ -512,5 +512,11 @@ $content-background-color: #EEEEEE;
   }
   to {
     transform: translate3d(100%, 0, 0);
+  }
+}
+
+.iconify {
+  &.header-icon {
+    color: #9D8ADE;
   }
 }

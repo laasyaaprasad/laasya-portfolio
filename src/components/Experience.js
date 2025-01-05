@@ -90,6 +90,8 @@ class Experience extends Component {
               background: "#FFFFFF", // Default white background for all icons
               color: "#fff",
               textAlign: "center",
+              boxShadow: "0 0 15px 5px #7B6FAD",
+              border: "2px solid #FFFFFF", // Reduced white border thickness
             }}
             icon={iconElement}
             key={i}
@@ -142,13 +144,15 @@ class Experience extends Component {
           </div>
         </div>
         <div className="col-md-8 mx-auto">
-        <VerticalTimeline>
+          <VerticalTimeline>
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#FFFFFF", // Default white background
-                color: "#fff",
+                background: "#6E5AAD", // Dark purple background color
+                color: "#FFFFFF", // White color for the icon itself
                 textAlign: "center",
+                border: "2px solid #FFFFFF", // Reduced white border thickness
+                boxShadow: "0 0 15px 5px #7B6FAD",
               }}
               icon={
                 <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
