@@ -54,7 +54,7 @@ class Experience extends Component {
           // Second icon: Cisco.png
           iconElement = (
             <img
-              src="images/cisco.png"
+              src="images/Cisco.png"
               alt="Cisco"
               style={{ width: "100%", height: "100%", borderRadius: "50%" }}
             />
