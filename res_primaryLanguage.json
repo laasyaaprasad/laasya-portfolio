@@ -22,8 +22,8 @@
         ],
       "Teaching Assistant": [
         "Worked as a teaching assistant for <a href='https://course.ccs.neu.edu/cs1800/course_staff.html' target='_blank'>CS1800-Discrete Structures in Mathematics</a> under Professor Matt Higger",
-        "Worked as a teaching assistant for <a href='https://catalog.northeastern.edu/course-descriptions/mism/' target='_blank'>MSIM6212 - Data Mining and Machine Learning for Business</a> under Professor Xiupeng Wang",
-        "Worked as a teaching assistant for <a href='https://www.khoury.northeastern.edu/home/vkp/3800-sp13/Course_Overview.html' target='_blank'>CS3800 - Theory of Computation</a> under Professor Walter Schnyder"
+        "Worked as a teaching assistant for <a href='https://catalog.northeastern.edu/course-descriptions/mism/' target='_blank'>MSIM6212 - Data Mining and Machine Learning for Business</a> under Prof. Xiupeng Wang",
+        "Worked as a teaching assistant for <a href='https://www.khoury.northeastern.edu/home/vkp/3800-sp13/Course_Overview.html' target='_blank'>CS3800 - Theory of Computation</a> under Prof. Walter Schnyder"
       ],
       
       "coursework": [
@@ -261,9 +261,9 @@
         "NLTK"
       ],
       "content": [
-        "Conducted in-depth analysis of payments data, uncovering key insights that were leveraged by the sales team to secure three new clients, contributing to a 20% increase in revenue, and further optimizing fraud detection strategies.",
-        "Analyzed historical payment patterns and outliers using Python, leading to actionable insights that drove a 10% reduction in default rates, and further implemented data-driven strategies that significantly improved risk management by 25%",
-        "Worked on its entity resolution model that leverages the Expectation Maximization Algorithm to create a persistent ID that facilitates deduplication and eliminates data redundancy, leading to a 30% increase in fraudulent transaction identification"
+        "Engineered an NLP model to streamline web scraping, optimizing data categorization and classification within unstructured data, improving processing efficiency by 25%. Streamlined existing models using libraries like NLTK and Beautiful Soup",
+        "Set up MongoDB databases for horizontal scaling. Improved data processing capabilities by integrating specialized libraries resulting in a 25% data retrieval performance boost.",
+        "Expanded data accessibility by leveraging open-source APIs to translate extracted information into three regional languages."
       ]
     },
     {
@@ -283,8 +283,8 @@
         "Scikit-learn"
       ],
       "content": [
-        "Implemented measures including node attestation, cloud service identity, and authentication, leveraging CNCF's SPIRE and SPIFFE technologies, resulting in a 20% security enhancement.",
-        "Built a secure zero-trust environment, simulated the workload API interaction and data retrieval using a python script in a docker container.",
+        "Implemented measures including node attestation, cloud service identity, and authentication, leveraging CNCF's SPIRE and SPIFFE technologies, resulting in enhanced workload security, reduced unauthorized access incidents by 30%.",
+        "Built a secure zero-trust environment and streamlined identity management across distributed systems. Simulated the workload API interaction and data retrieval using a python script in a docker container.",
         "Secured 3rd place in HPE CTY program and won a research grant."
       ]
     }
@@ -304,7 +304,7 @@
     },
     {
       "title": "Research Publication",
-      "description": "Published a research paper oon object detection in IEEE Xplore.",
+      "description": "Published a research paper on object detection in IEEE Xplore.",
       "image": "/images/portfolio/achievements/research.png",
       "tags": ["Research", "RCNN", "SSD", "YOLO", "Publication"]
     }
